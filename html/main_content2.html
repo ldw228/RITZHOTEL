@@ -86,7 +86,7 @@
             bottom: -220px; transform: rotate(180deg); padding: 15px 0 15px; line-height: 4vw; text-align: center; transition: 0.5s;}
         
         /*버튼효과*/
-        button.slide_button2{
+        .slide_button2{
             color: white;
             border: 2px solid white;
             width: 180px;
@@ -100,6 +100,9 @@
             cursor: pointer;
             border-radius: 2px;
             background: none;
+            display: block;
+            line-height: 45px;
+            text-align: center;
           box-shadow: inset 0 0 0 0 #897356;
           transition: all 1.5s;
             -webkit-transition:all 1.5s;
@@ -107,7 +110,7 @@
             -ms-transform:all 1.5s;
             -o-transform:all 1.5s;
         }
-        button.slide_button2:hover {
+        .slide_button2:hover {
           box-shadow: inset 100vmax 0 0 0 #897356;
           border:none;
           width: 180px;
@@ -120,6 +123,12 @@
           color: white;
 
         }
+        
+        @media screen and (-ms-high-contrast:active), all and (-ms-high-contrast:none){
+            .slide_button2:hover {border: 2px solid white;}
+
+            
+        }
          @media screen and (max-width:1650px) and (min-width: 1385px){
              .cont2_bgBox{top: 17%;}
              .bg_txt{left: 990px; top: 230px;}
@@ -127,7 +136,7 @@
              .bg_title strong{font-size: 36px;}
              .main_content2 .swiper2{top: -4%;}
              .slide_Box img{position: absolute; left: 0;}
-             button.slide_button2{margin-left: 15%;}
+             .slide_button2{margin-left: 15%;}
              .con2_Stitle{font-size: 56px;}
              .con2_Stxt{font-size: 18px; line-height: 30px}  
         }
@@ -138,7 +147,7 @@
              .bg_title strong{font-size: 30px;}
              .main_content2 .swiper2{top: -4%;}
              .slide_Box img{position: absolute; left: 0;}
-             button.slide_button2{margin-left: 13%;}
+             .slide_button2{margin-left: 13%;}
              .con2_Stitle{font-size: 48px;}
              .con2_Stxt{font-size: 12px; line-height: 30px}  
         }
@@ -149,7 +158,7 @@
              .bg_title strong{font-size: 30px;}
              .main_content2 .swiper2{top: -4%;}
              .slide_Box img{position: absolute; left: 0;}
-             button.slide_button2{margin-left: 0%;}
+             .slide_button2{margin-left: 0%;}
              .con2_Stitle{font-size: 48px;}
              .con2_Stxt{font-size: 12px; line-height: 30px}  
         }
@@ -162,7 +171,7 @@
              .bg_title strong{font-size: 30px;}
              .main_content2 .swiper2{top: -4%;}
             .slide_Box img{position: relative;}
-             button.slide_button2{margin-left: 0%;}
+             .slide_button2{margin-left: 0%;}
              .con2_Stxt1{background: rgba(0,0,0,0.5); padding-top: 3%; padding-bottom: 3%; 
                          left: 15%;  top: 300px; }
              .con2_Stxt{font-size: 21px; line-height: 30px; }
@@ -228,7 +237,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">EVENT</p><br>
                 <p class="con2_Stxt">롤스로이스와 프라이빗 버틀러 서비스가 제공되는<br>최고급 혜택을 누려보세요.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>01</strong>.EVENT RITZ HOTEL</div>
                 </div>
                 </div>
@@ -237,7 +246,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">PACKAGE</p><br>
                 <p class="con2_Stxt">가족과 함께하는 향긋한 플라워 디너<br>행복한 만찬을 즐겨보세요.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>02</strong>.PACKAGE RITZ HOTEL</div>
                 </div>
                 </div>
@@ -245,7 +254,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">WEDDING</p><br>
                 <p class="con2_Stxt">THE RITZ HOTEL과 함께하는 웨딩 피로연<br>최고급 와인 파티로 마지막을 장식하세요.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>03</strong>.WEDDING RITZ HOTEL</div>
                 </div>
                 </div>
@@ -253,7 +262,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">EVENT</p><br>
                 <p class="con2_Stxt">도심의 야경을 한눈에 볼 수 있는 인피니티풀<br>시원한 바람 맞으면서 이용해보세요.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>04</strong>.EVENT RITZ HOTEL</div>
                 </div>
                 </div>
@@ -261,7 +270,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">PACKAGE</p><br>
                 <p class="con2_Stxt">와인바에서 화이트 와인 주문시<br>프리미엄 큐브치즈와 크래커를 무료로 제공합니다.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>05</strong>.PACKAGE RITZ HOTEL</div>
                 </div>
                 </div>
@@ -269,7 +278,7 @@
                 <div class="con2_Stxt1">
                 <p class="con2_Stitle">WEDDING</p><br>
                 <p class="con2_Stxt">THE RITZ에서 펼쳐지는 우아하고 격조높은 결혼식<br>미쉐린 3스타 세프가 요리하는 파리지앵 메뉴를 즐겨보세요.</p>
-                <button class="slide_button2"><a href="Promotion_event.html">more</a></button>
+                <a href="Promotion_event.html" class="slide_button2">more</a>
                 <div class="y_txt"><strong>06</strong>.WEDDING RITZ HOTEL</div>
                 </div>
                 </div>
